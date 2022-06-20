@@ -8,7 +8,7 @@ hetzner_installimage_disks:
 
 # create EFI partition
 # newer machines like the EX-53 seem to require it
-hetzner_installimage_esp: true
+hetzner_installimage_esp: false
 
 hetzner_installimage_swraid: 1
 hetzner_installimage_swraidlevel: 0
